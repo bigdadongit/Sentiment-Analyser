@@ -1,61 +1,51 @@
-📊 Sentiment Analysis System
+#Sentiment Analysis System
 
-A lightweight NLP-based Sentiment Analysis web application that classifies text as Positive or Negative using Machine Learning.
-Built with Python and Streamlit, and deployed live on Streamlit Community Cloud.
+Sentiment Analysis System is a lightweight NLP-based web application that analyzes text and classifies it as Positive or Negative sentiment using machine learning.
 
-🌐 Live Demo
+## Demo
 
-👉 Try the app here:
-https://bigdad-sentiment-analyser.streamlit.app/
+👉 https://bigdad-sentiment-analyser.streamlit.app/
 
-📸 Screenshots
-<p align="center"> <img src="assets/home.png" width="380" /> <br /> <em>Home Screen</em> </p> <p align="center"> <img src="assets/result.png" width="380" /> <br /> <em>Sentiment Analysis Result</em> </p>
-📝 Overview
+## Screenshots
+<p align="center"> <img src="assets/home.png" width="380" /> <br /> <em>Home screen – text input and analysis options</em> </p> <p align="center"> <img src="assets/result.png" width="380" /> <br /> <em>Sentiment prediction with confidence visualization</em> </p>
+## Features
 
-The Sentiment Analysis System allows users to enter custom text or select sample examples and instantly receive sentiment predictions along with confidence scores.
-The application automatically trains and loads the ML model on first run, making it fully cloud-compatible.
+Analyze custom text or sample examples
 
-🧠 Tech Stack
+TF-IDF + Logistic Regression–based sentiment classification
+
+Confidence score and visual indicators
+
+Automatic model training and loading
+
+Deployed on Streamlit Community Cloud
+
+## Tech Stack
 
 Python
 
 scikit-learn
 
-NLP (TF-IDF, text preprocessing)
+NLP (TF-IDF)
 
 Streamlit
 
 Plotly
 
-⚙️ How It Works
+## Deployment
 
-User enters text or selects a sample
+The application is deployed on Streamlit Community Cloud and automatically redeploys on every push to the main branch.
 
-Text is cleaned and vectorized using TF-IDF
-
-A Logistic Regression model predicts sentiment
-
-Sentiment and confidence score are displayed
-
-🚀 Deployment
-
-Deployed on Streamlit Community Cloud
-
-Automatically redeploys on every push to main
-
-Model auto-trains if not found (no manual setup)
-
-📌 Future Enhancements
+## Future Improvements
 
 Neutral sentiment classification
 
-CSV upload for batch analysis
+CSV-based batch sentiment analysis
 
 Word cloud visualization
 
 REST API using FastAPI
 
-⭐ Support
+⭐ Like this project?
 
-If you like this project, consider giving it a ⭐
-It really helps!
+Give it a star — it helps a lot.
