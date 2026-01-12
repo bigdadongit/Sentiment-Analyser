@@ -1,4 +1,4 @@
-#Sentiment Analysis System
+# Sentiment Analysis System
 
 Sentiment Analysis System is a lightweight NLP-based web application that analyzes text and classifies it as Positive or Negative sentiment using machine learning.
 
@@ -8,6 +8,7 @@ Sentiment Analysis System is a lightweight NLP-based web application that analyz
 
 ## Screenshots
 <p align="center"> <img src="assets/home.png" width="380" /> <br /> <em>Home screen – text input and analysis options</em> </p> <p align="center"> <img src="assets/result.png" width="380" /> <br /> <em>Sentiment prediction with confidence visualization</em> </p>
+
 ## Features
 
 Analyze custom text or sample examples
