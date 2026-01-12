@@ -1,17 +1,19 @@
+📊 Sentiment Analysis System
+
+A lightweight NLP-based Sentiment Analysis web application that classifies text as Positive or Negative using Machine Learning.
+Built with Python and Streamlit, and deployed live on Streamlit Community Cloud.
+
 🌐 Live Demo
 
 👉 Try the app here:
 https://bigdad-sentiment-analyser.streamlit.app/
 
 📸 Screenshots
+<p align="center"> <img src="assets/home.png" width="380" /> <br /> <em>Home Screen</em> </p> <p align="center"> <img src="assets/result.png" width="380" /> <br /> <em>Sentiment Analysis Result</em> </p>
+📝 Overview
 
-![Home](assets/home.png)
-![Result](assets/result.png)
-
-📝 Project Overview
-
-Sentiment Analysis System is an NLP-based web application that classifies user-provided text as Positive or Negative sentiment.
-The system uses TF-IDF vectorization with a Logistic Regression model and is deployed on Streamlit Community Cloud with automatic model training and loading.
+The Sentiment Analysis System allows users to enter custom text or select sample examples and instantly receive sentiment predictions along with confidence scores.
+The application automatically trains and loads the ML model on first run, making it fully cloud-compatible.
 
 🧠 Tech Stack
 
@@ -23,17 +25,17 @@ NLP (TF-IDF, text preprocessing)
 
 Streamlit
 
-Plotly (visualizations)
+Plotly
 
 ⚙️ How It Works
 
-User enters custom text or selects a sample example
+User enters text or selects a sample
 
 Text is cleaned and vectorized using TF-IDF
 
-A trained Logistic Regression model predicts sentiment
+A Logistic Regression model predicts sentiment
 
-Results and confidence score are displayed instantly
+Sentiment and confidence score are displayed
 
 🚀 Deployment
 
@@ -41,24 +43,19 @@ Deployed on Streamlit Community Cloud
 
 Automatically redeploys on every push to main
 
-Model is auto-trained on first run if not found
+Model auto-trains if not found (no manual setup)
 
-📌 Future Improvements
+📌 Future Enhancements
 
 Neutral sentiment classification
 
-CSV-based batch sentiment analysis
+CSV upload for batch analysis
 
 Word cloud visualization
 
 REST API using FastAPI
 
-⭐ If you like this project
+⭐ Support
 
-Give it a ⭐ — it helps a lot!
-
-For questions or collaboration, please contact through your institution.
-
----
-
-**Note**: This is an academic project demonstrating NLP and ML concepts for sentiment analysis.
+If you like this project, consider giving it a ⭐
+It really helps!
