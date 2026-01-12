@@ -46,6 +46,6 @@ Word cloud visualization
 
 REST API using FastAPI
 
-⭐ Like this project?
+## ⭐ Like this project?
 
 Give it a star — it helps a lot.
